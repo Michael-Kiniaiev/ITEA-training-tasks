@@ -1,0 +1,100 @@
+
+*{
+	box-sizing: border-box;
+}
+body {
+	margin-top: 2%;
+	background: fixed;
+	background-image: url(../img/background.jpg) ;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+h1 {
+	text-align: center;
+	margin: auto;
+	font-size: 6vw;
+	color:#E2A126!important;
+	text-shadow: 1px 0 1px #000, 
+	0 1px 1px #000, 
+	-1px 0 1px #000, 
+	0 -1px 1px #000;
+}
+h2 {
+	font-size: 2vw;
+}
+#about_space {
+	width: 12vw;
+	float: left;
+	margin: 2%;
+}
+#galileo {
+	width: 12vw;
+	float: left;
+	margin: 2%;
+}
+#rene {
+	width: 12vw;
+	float: left;
+	margin: 2%;
+}
+#leibinz {
+	width: 12vw;
+	float: left;
+	margin: 2%;
+}
+#newton {
+	width: 10vw;
+	float: right;
+	margin: 2%;
+}
+#einstein {
+	width: 10vw;
+	float: right;
+	margin: 2%;
+}
+.accordion {
+	width: 55vw;
+	height: 10vh;
+	margin-top: 1%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 1vw;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid purple;
+	border-radius: 10px;
+	background: rgba(0, 0, 0, 0.5);
+	color:#E2A126!important;
+	cursor: pointer;
+	outline: none;
+  	transition: 0.4s;
+}
+.active, .accordion:hover {
+  	background: rgba(0, 0, 0, 0.5);
+}
+.accordion:after {
+  	content: '\02795'; 
+  	font-size: 13px;
+  	color: #777;
+  	float: right;
+  	margin-left: 5px;
+}
+.active:after {
+  	content: '\02795'; 
+  	rotate: 45deg;
+}
+.panel {
+  	padding: 0 18px;
+  	background: rgba(0, 0, 0, 0.5);
+  	max-height: 0;
+  	overflow: hidden;
+  	transition: max-height 0.2s ease-out;
+  	width: 55vw;
+  	margin-top: 1%;
+  	margin-right: auto;
+  	margin-left: auto;
+  	color:#E2A126!important;
+}
