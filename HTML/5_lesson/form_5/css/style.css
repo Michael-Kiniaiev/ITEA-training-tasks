@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container {
+	width: 1400px;
+	margin: auto;
+}
+.form {
+	border: 2px solid green;
+}
+.form__header {
+	height: 50px;
+	background: green;
+	display: flex;
+	align-items: center;
+	padding: 0 20px;
+}
+.form__header select {
+	margin-left: 170px;
+	background: green;
+	border: none;
+}
+.form__body {
+	display: flex;
+}
+.form__body > div {
+	width: 50%;
+}
+.form__item {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 0;
+}
+.form__itemText {
+	padding-left: 20px;
+} 
+.form__inp {
+	width: 250px;
+	margin-right: 130px;
+}
+.form__itemText span {
+	color: red;
+}
+.form__inp--big {
+	height: 100px;
+}
+.form__select {
+	width: 250px;
+	margin-right: 130px;
+}
+.form__inp--small {
+	width: 125px;
+	margin-right: 255px;
+}
+.form__site {
+	width: 250px;
+	margin-right: 130px;
+}
+.form__site > div {
+	display: flex;
+	justify-content: space-between;
+}
+.form__url > input, .form__link > input {
+	width: 150px;
+}
+.form__url {
+	margin-bottom: 10px;
+}
+.formlist {
+	list-style: none;
+	margin-right: 140px;
+}
+input[type="radio"] {
+	margin-right: 10px;
+	margin-left: -90px;
+}
+#form__inputBig {
+	margin-right: 140px;
+}
+.form__footer {
+	height: 50px;
+	background: grey;
+	text-align: center;
+	line-height: 50px;
+}
+.form__footer > input {
+	color: white;
+	background: green;
+	border: none;
+	padding: 10px 20px;
+	font-weight: 700;
+	cursor: pointer;
+}

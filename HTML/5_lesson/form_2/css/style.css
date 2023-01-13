@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container {
+	width: 700px;
+	margin: auto;
+	padding: 5%;
+}
+.form__header {
+	height: 71px;
+	display: flex;
+	align-items: center;
+}
+h1 {
+	margin: auto;
+	font-weight: 700;
+    font-family: system-ui;
+    font-size: 42px;
+    letter-spacing: -3px;
+}
+.form__body {
+	display: flex;
+	justify-content: center;
+}
+.form__item {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	margin: 13px 0;
+}
+.form__itemText {
+	padding: 5px 0;
+	font-size: 13px;
+	font-family: sans-serif;
+} 
+.form__inp {
+	width: 459px;
+	height: 37px;
+	border: 1px solid #BBBBBB;
+	border-radius: 3px;
+	padding: 10px;
+}
+input:focus {
+	outline: none;
+	border: none;
+    -webkit-box-shadow: 0px 0px 3px 1px rgba(117,185,240,1);
+	-moz-box-shadow: 0px 0px 3px 1px rgba(117,185,240,1);
+	box-shadow: 0px 0px 3px 1px rgba(117,185,240,1);
+}
+.form__inpPassword {
+	width: 459px;
+	height: 37px;
+	border: 1px solid #BBBBBB;
+	border-radius: 3px;
+	padding: 10px;
+	font-size: 19px;
+}
+.btn {
+	margin-top: 1px;
+	cursor: pointer;
+	border: none;
+}

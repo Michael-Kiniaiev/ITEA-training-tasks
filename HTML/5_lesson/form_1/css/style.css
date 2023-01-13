@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;		
+	box-sizing: border-box;
+}
+.container {
+	padding:8%;
+}
+.form {
+	border: 1px solid #6699FF;
+	height: 357px;
+	width: 570px;
+	margin: auto;
+}
+.form__body {
+	display: flex;
+	justify-content: center;
+}
+.form__item {
+	height: 25px;
+	display: flex;
+	justify-content: flex-end;
+	margin: 10px 0;
+}
+.form__itemText {
+	font-family: system-ui;
+	font-size: 14px;
+	padding-right: 15px;
+	margin: 5px 0;	
+} 
+.form__inp {
+	border: 1px solid #6699FF;
+	width: 208px;
+	margin-right: 208px;
+	padding: 5px;
+}
+.form__select {
+	border-color: #6699FF;
+	width: 208px;
+	margin-right: 208px;
+}
+.form__inp--big {
+	width: 400px;
+	height: 126px;
+	margin-right: 16px;
+}
+.form__itemCaptcha {
+	height: 25px;
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 112px;
+	padding-right: 50px;
+}
+.form__inpCaptcha {
+	padding: 5px;
+	border: 1px solid #6699FF;
+	width: 77px;
+	margin-right: 3px;
+}
+.img {
+	border: 1px solid #6699FF;
+	width: 152px;
+	height: 52px;
+	margin-right: 4px;
+	margin-left: 16px;
+}
+.form__itemCaptchaText {
+	font-family: system-ui;
+	font-size: 14px;
+	padding-right: 6px;
+	margin: 5px 0;	
+}
+.form__button {
+	margin-left: 118px;
+	margin-top: 39px;
+}
+.form__btn {
+	width: 90px;
+	height: 22px;
+	border: 1px solid black;
+	border-radius: 4px;
+	font-size: 14px;
+	font-family: system-ui;
+	padding-bottom: 1px;
+	cursor: pointer;
+}
+.change__img {
+	color: black;
+	font-family: system-ui;
+	font-size: 14px;
+}
