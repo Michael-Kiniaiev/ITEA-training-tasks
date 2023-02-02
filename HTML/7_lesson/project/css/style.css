@@ -1,0 +1,223 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.header{
+	background: rgba(0, 0, 0, 1);
+	color: white;
+	text-transform: uppercase;
+	display: flex;
+	height: 70px;
+	align-items: center;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 1000;
+}
+.header__logo{
+	width: 30%;
+	text-align: center;
+    font-size: 30px;
+}
+.header__logo span{
+	color: red;
+}
+.header__nav{
+	width: 70%;
+}
+.header__menu{
+	list-style-type: none;
+	display: flex;
+	width: 50%;
+    margin: auto;
+    justify-content: space-between;
+}
+.header__submenu{
+	position: relative;
+}
+.header__menu a{
+	text-decoration: none;
+	color: white;
+	transition: 1s;
+}
+.header__submenu ul{
+	background: rgba(0, 0, 0, 1.0);
+	display: none;
+	position: absolute;
+	left: -18px;
+	list-style: none;
+	padding: 10px 20px;
+	width: 160%;
+    top: 43px;
+}
+.header__submenu li{
+	padding: 10px 0;
+}
+.header__submenu:hover ul{
+	display: block;
+}
+.header__menu a:hover{
+	color: red;
+}
+.banner{
+	width: 100vw;
+    height: 80vh;
+	background: url(../img/bg1.jpg);
+	background-position: center;
+	position: relative;
+}
+.banner__info{
+	width: 80%;
+	margin: auto;
+	left: 0;
+	right: 0;
+	color: white;
+	top: 200px;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 20px;
+}
+.banner__info>div{
+	margin: 10px 0;
+}
+.banner__title{
+	font-size: 45px;
+}
+.banner__subtitle{
+	font-size: 38px;
+}
+.banner__text{
+	font-size: 30px;
+	color: grey;
+}
+.banner__btn{
+	background: red;
+	position: absolute;
+	bottom: 200px;
+	padding: 10px 15px;
+	left: 10%;
+}
+.banner__btn a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+}
+.articles{
+	margin-top: -100px;
+	height: 100vh;
+	background: lightgrey;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.articles__item{
+	height: 700px;
+    width: 450px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.articles__item:not(.noBg) {
+	background: grey;
+}
+.articles__wrapper{
+	height: 90%;
+	width: 90%;
+	position: relative;
+}
+.articles__title{
+	font-weight: 700;
+	font-size: 20px;
+	margin: 15px 0;
+}
+.articles__text{
+	font-size: 14px;
+}
+.articles_img{
+	height: 350px;
+	position: relative;
+}
+.articles__item:nth-child(1) .articles_img{
+	background: url(../img/drumps.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.articles__item:nth-child(2) .articles_img{
+	background: url(../img/gituars.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 115%;
+    background-position: 0 -23px;
+}
+.articles__item:nth-child(3) .articles_img{
+	background: url(../img/drumps.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.articles__btn{
+	border: none;
+	bottom: -20px;
+	position: absolute;
+	padding: 10px 15px;
+	background-image: linear-gradient(to right, #a9343d, #a9343d, #a9343d, #a9343d, #AE9F9F, #868684);
+}
+.articles__btn a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+}
+
+.fa-circle-exclamation{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	cursor: pointer;
+}
+.articles__arrow {
+	right: -6px;
+    display: none;
+    height: 0px;
+    width: 0px;
+    border-top: 0px solid transparent;
+    border-bottom: 14px solid rgba(0, 0, 0, 0.5);
+    border-left: 14px solid transparent;
+    border-right: 14px solid transparent;
+    position: absolute;
+}
+.articles__inf {
+	position: absolute;
+	display: none;
+	top: 30px;
+    right: -6px;
+    padding: 15px 10px;
+    text-transform: none;
+}
+.articles__item:nth-child(1) .fa-circle-exclamation:hover .articles__arrow {
+	display: block;
+}
+.articles__item:nth-child(1) .fa-circle-exclamation:hover .articles__inf{
+	display: block;
+	background: rgba(0, 0, 0, 0.5);
+	color: #F7B962;
+	line-height: 20px;
+}
+.articles__item:nth-child(2) .fa-circle-exclamation:hover .articles__arrow {
+	display: block;
+}
+.articles__item:nth-child(2) .fa-circle-exclamation:hover .articles__inf{
+	display: block;
+	background: rgba(0, 0, 0, 0.5);
+	color: #F7B962;
+	line-height: 20px;
+}
+.articles__item:nth-child(3) .fa-circle-exclamation:hover .articles__arrow {
+	display: block;
+}
+.articles__item:nth-child(3) .fa-circle-exclamation:hover .articles__inf{
+	display: block;
+	background: rgba(0, 0, 0, 0.5);
+	color: #F7B962;
+	line-height: 20px;
+}
+

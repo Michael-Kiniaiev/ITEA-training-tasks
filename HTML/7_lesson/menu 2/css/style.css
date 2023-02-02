@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.header{
+	background: #2B2F32;
+	height: 300px;
+    width: 300px;
+}
+.header__menu{
+	height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: center;
+    padding: 12px 30px;
+}
+.header__menu a{
+	color: #999894;
+	text-decoration: none;
+}
+.header__menu>li{
+	cursor: pointer;
+	transition: 1s;
+}
+.header__menu li:hover a {
+	color: #EEFFFF;
+}
+.header__menu li:hover {
+	background: black;
+}
+.header__menu li{
+	margin: 3px 20px;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 400;
+    background: 
+    radial-gradient(circle at 100% 100%, #2b2f32 0, #2b2f32 3px, transparent 3px) 0% 0%/4px 4px no-repeat,
+    radial-gradient(circle at 0 100%, #2b2f32 0, #2b2f32 3px, transparent 3px) 100% 0%/4px 4px no-repeat,
+    radial-gradient(circle at 100% 0, #2b2f32 0, #2b2f32 3px, transparent 3px) 0% 100%/4px 4px no-repeat,
+    radial-gradient(circle at 0 0, #2b2f32 0, #2b2f32 3px, transparent 3px) 100% 100%/4px 4px no-repeat,
+    linear-gradient(#2b2f32, #2b2f32) 50% 50%/calc(100% - 2px) calc(100% - 8px) no-repeat,
+    linear-gradient(#2b2f32, #2b2f32) 50% 50%/calc(100% - 8px) calc(100% - 2px) no-repeat,
+    linear-gradient(90deg, #000000 0%, #545758 100%);
+    border-radius: 4px;
+    padding: 6px;
+    box-sizing: border-box;
+}
